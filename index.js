@@ -24,4 +24,10 @@ app.get("/data", function (req, res) {
   res.send(Object.keys(server.torrents).toString());
 });
 
-app.listen(8080);
+app.get("/", function (req, res) {
+  res.send("HOLAAs");
+});
+
+app.listen(3000, function () {
+  console.log("RUNNING ON PORT 3000");
+});
