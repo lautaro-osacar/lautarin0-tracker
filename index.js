@@ -25,7 +25,7 @@ app.get("/data", function (req, res) {
 });
 
 app.get("/", function (req, res) {
-  res.send("HOLAA");
+  res.send("HOLAAs");
 });
 
 app.get("/isworking", function (req, res) {
